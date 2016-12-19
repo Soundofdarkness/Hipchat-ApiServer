@@ -29,7 +29,7 @@ def voidtrader():
              '"notify": false,' \
              '"message_format": "text"' \
              '}'
-        requests.post(config.warframe_url, data=data)
+        requests.post(config.warframe_url, data=ex)
 
 
 app.run(host='0.0.0.0', port='8080')
